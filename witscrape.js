@@ -1,4 +1,3 @@
-var request = require('request');
 var rp = require('request-promise');
 var fs = require('fs');
 
