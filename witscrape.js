@@ -11,11 +11,12 @@ for (let item of wit) {
   promiseArray.push(requestWiki(item.wiki));
 }
 
-Promise.all(promiseArray)
-  .then(response => {
+Promise.all(promiseArray).then(
+  response => {
     parseArticle(response);
     saveArticles(articles);
-  })
+  }
+)
 
 function saveArticles(articles) {
   for (let page of articles) {
@@ -24,11 +25,9 @@ function saveArticles(articles) {
       if(err) {
           return console.log(err);
       }
-
       console.log("The file was saved!");
-  });
+    });
   }
-
 }
 
 function parseArticle(response) {
