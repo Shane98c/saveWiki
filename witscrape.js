@@ -22,7 +22,7 @@ function saveArticles(articles) {
     let stringPage = JSON.stringify(page);
     fs.writeFile("./articles/"+page.id+".json", stringPage, function(err) {
       if(err) {
-          return console.log(err);
+        return console.log(err);
       }
       console.log("The file was saved!");
     });
@@ -38,7 +38,8 @@ function parseArticle(response) {
         for (let page in article.query.pages) {
           let singleArticle = {
             articleText: article.query.pages[page].extract,
-            title: article.query.pages[page],
+            shortText: article.query.pages[page].extract.split('</p>')[0],
+            title: article.query.pages[page].title,
             id: article.query.pages[page].title.replace(/ /g,"_")
           }
           articles.push(singleArticle);
