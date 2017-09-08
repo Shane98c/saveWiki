@@ -123,7 +123,7 @@ module.exports = [
       "id": "lake",
       "title": "Kettle hole",
       "text": "A lake formed from a retreating glacier. These are typically found in the northern areas of the U.S.: Minnesota, Michigan, New York, Massachusetts, etc.",
-      "wiki": "Kettle_landform",
+      "wiki": "Kettle_(landform)",
       "imgs": ["assets/img/wit/landscape/Lake/Kettle/kettelholes.jpg", "assets/img/wit/landscape/Lake/Kettle/kettelholes2.jpg", "assets/img/wit/landscape/Lake/Kettle/kettelholes3.jpg"]
   }, {
       "id": "lake",
@@ -201,13 +201,13 @@ module.exports = [
       "id": "mount",
       "title": "Fold limb",
       "text": "Fold limbs can look like ridges: long, linear mountains with crests at the top. Ridges can be due to a variety of geologic landforms, but, in highly folded areas of the country - like the Appalachians - they are frequently fold limbs.",
-      "wiki": "Fold_geology",
+      "wiki": "Fold_(geology)",
       "imgs": ["assets/img/wit/landscape/Mount/ridge.jpg", "assets/img/wit/landscape/Mount/fold_limb2.jpg", "assets/img/wit/landscape/Mount/fold_limb3.jpg"]
   }, {
       "id": "mount",
       "title": "Hogbacks",
       "text": "Steeply tilting rock layers which stick up out of the ground like spine vertebrae. Sometimes they can form triangle-shaped wedges that lay against the sides of mountains.",
-      "wiki": "Hogback_geology",
+      "wiki": "Hogback_(geology)",
       "imgs": ["assets/img/wit/landscape/Mount/hogback.jpg", "assets/img/wit/landscape/Mount/hogback2.jpg", "assets/img/wit/landscape/Mount/hogback3.jpg"]
   }, {
       "id": "mount",
@@ -279,7 +279,7 @@ module.exports = [
       "id": "mount",
       "title": "Exposed dike",
       "text": "Dikes form when lava cuts up through overlying rock, usually on its way to the surface. As the overlying layers are eroded away, dikes can appear on the surface as long, resistant ridges, often a different color than the surrounding landscape.",
-      "wiki": "Dike_geology",
+      "wiki": "Dike_(geology)",
       "imgs": ["assets/img/wit/landscape/Mount/dike.jpg", "assets/img/wit/landscape/Mount/dike2.jpg", "assets/img/wit/landscape/Mount/dike3.jpg"]
   }, {
       "id": "can",
@@ -297,7 +297,7 @@ module.exports = [
       "id": "can",
       "title": "Joints in granite",
       "text": "Joints (fractures) in granite can often form steep-sided gashes that look (from above) like mini-canyons. Granite joints are easily identified, since they tend to be irregularly spaced and occur across bare rock faces. They are easily seen when flying over the Sierra Nevadas of California or Nevada.",
-      "wiki": "Joint_geology",
+      "wiki": "Joint_(geology)",
       "imgs": ["assets/img/wit/landscape/Can/joints_granite.jpg", "assets/img/wit/landscape/Can/joints_granite2.jpg", "assets/img/wit/landscape/Can/joints_granite3.jpg"]
   }, {
       "id": "can",

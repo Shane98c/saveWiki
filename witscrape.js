@@ -19,8 +19,7 @@ Promise.all(promiseArray).then(
 
 function saveArticles(articles) {
   for (let page of articles) {
-    let stringPage = JSON.stringify(page);
-    fs.writeFile("./articles/"+page.id+".json", stringPage, function(err) {
+    fs.writeFile("./articles/"+page.id+".json", JSON.stringify(page), function(err) {
       if(err) {
         return console.log(err);
       }
@@ -33,7 +32,7 @@ function parseArticle(response) {
   for (let article of response) {
     if (article && article["query"]) {
       if (article.query.pages['-1']) {
-        console.log('fail');
+        console.log('fail', article.query.pages["-1"]);
       } else if (article) {
         for (let page in article.query.pages) {
           let singleArticle = {
